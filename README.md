@@ -1,4 +1,4 @@
 HR
 ==
 
-Háskóladót
+UniversityStuff - Steinar & Kristinn
