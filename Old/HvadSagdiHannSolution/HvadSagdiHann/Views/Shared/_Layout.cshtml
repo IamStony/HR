@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hvað Sagði Hann</title>
+    <!--<title>@ViewBag.Title - My ASP.NET Application</title>-->
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Scripts/SharedLayout.css" rel="stylesheet" />
+    <link href="~/Content/upphafssida.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <nav class="navbar-collapse collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Heim", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Beiðnir", "Requesting", "Home")</li>
+                    <li>@Html.ActionLink("Þýða", "Translate", "Home")</li>
+                    <li>@Html.ActionLink("Um Okkur", "About", "Home")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </nav>
+        </div>
+    </div>
+    <div id="logo">
+        <img id="logo" src="http://oi61.tinypic.com/14ajsyc.jpg" alt="IMG NOT FOUND" />
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <img id="fotur" src="http://oi60.tinypic.com/2po85g1.jpg" alt="Film strip banner" />
+            <p>&copy; @DateTime.Now.Year - Tísurnar MjáMjá</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

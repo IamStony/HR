@@ -1,0 +1,165 @@
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\HvadSagdiHann.dll.config
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\HvadSagdiHann.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\HvadSagdiHann.pdb
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Antlr3.Runtime.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\EntityFramework.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\EntityFramework.SqlServer.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Newtonsoft.Json.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Owin.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Helpers.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Mvc.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Optimization.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Razor.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.WebPages.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.WebPages.Razor.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\WebGrease.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Helpers.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Mvc.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Optimization.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Razor.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.WebPages.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.WebPages.Razor.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Newtonsoft.Json.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Antlr3.Runtime.pdb
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\EntityFramework.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\EntityFramework.SqlServer.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\obj\Debug\HvadSagdiHann.csprojResolveAssemblyReference.cache
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\obj\Debug\HvadSagdiHann.dll
+C:\Users\Steini\Documents\Vorönn 2014\Verklegt Gaman\HvadSagdiHannSolution\HvadSagdiHann\obj\Debug\HvadSagdiHann.pdb
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\HvadSagdiHann.dll.config
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\HvadSagdiHann.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\HvadSagdiHann.pdb
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Antlr3.Runtime.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\EntityFramework.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\EntityFramework.SqlServer.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Newtonsoft.Json.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Owin.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Helpers.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Mvc.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Optimization.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Razor.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.WebPages.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\WebGrease.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Helpers.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Mvc.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Optimization.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Razor.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.WebPages.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Newtonsoft.Json.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Antlr3.Runtime.pdb
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\EntityFramework.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\EntityFramework.SqlServer.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\obj\Debug\HvadSagdiHann.csprojResolveAssemblyReference.cache
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\obj\Debug\HvadSagdiHann.dll
+C:\Users\Kristinn\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\obj\Debug\HvadSagdiHann.pdb
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\HvadSagdiHann.dll.config
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\HvadSagdiHann.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\HvadSagdiHann.pdb
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Antlr3.Runtime.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\EntityFramework.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\EntityFramework.SqlServer.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Newtonsoft.Json.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Owin.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Helpers.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Mvc.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Optimization.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Razor.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.WebPages.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\WebGrease.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Helpers.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Mvc.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Optimization.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.Razor.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.WebPages.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Newtonsoft.Json.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Antlr3.Runtime.pdb
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\EntityFramework.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\EntityFramework.SqlServer.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\obj\Debug\HvadSagdiHann.csprojResolveAssemblyReference.cache
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\obj\Debug\HvadSagdiHann.dll
+C:\Users\Sonja\Documents\GitHub\Verklegt\VisStudio Verkefni\HvadSagdiHannSolution\HvadSagdiHann\obj\Debug\HvadSagdiHann.pdb
