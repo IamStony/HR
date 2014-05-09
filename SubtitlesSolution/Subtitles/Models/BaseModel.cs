@@ -5,11 +5,12 @@ using System.Web;
 
 namespace Subtitles.Models
 {
-	public class game
+	public class BaseModel
 	{
 		public int ID { get; set; }
 		public string Name { get; set; }
-		public int MaxPlayers { get; set; }
-		public int MinPlayers { get; set; }
+		public string ImdbUrl { get; set; }
+		//public int LanguageID { get; set; }
+		public string SrtFile { get; set; }
 	}
 }

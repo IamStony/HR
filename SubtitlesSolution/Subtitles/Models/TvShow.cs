@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Subtitles.Models
 {
-    public class TvShow : Movie
+    public class TvShow : BaseModel
     {
         public int Season { get; set; }
         public int Episode { get; set; }
