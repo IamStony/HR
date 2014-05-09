@@ -1,0 +1,23 @@
+﻿body{
+    font-family: 'Calibri';
+}
+
+form{
+    font-size: 16pt;
+    text-align: center;
+}
+
+nav{
+    font-size: 14pt;
+    text-align: center;
+    color: #00FBB3 !important;
+    font-weight: bold;
+}
+
+#footer{
+    margin-left: -20%;
+}
+
+.nav navbar-nav{
+    margin-left: 20%;
+}
