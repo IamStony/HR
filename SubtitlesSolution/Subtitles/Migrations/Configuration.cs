@@ -9,7 +9,7 @@ namespace Subtitles.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(Subtitles.Models.AppDataContext context)
