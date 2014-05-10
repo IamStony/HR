@@ -8,6 +8,7 @@ namespace Subtitles.Repositorys
 {
 	public class MovieRepo
 	{
+		AppDataContext context;
 		public Movie GetAllMovies()
 		{
 			var a = new Movie();
@@ -18,7 +19,7 @@ namespace Subtitles.Repositorys
 
 		public void AddMovie(Movie m)
 		{
-			 //Context.
+			context.Movies.Add(m);
 		}
 	}
 }
