@@ -24,6 +24,12 @@ namespace Subtitles.Controllers
             return View();
         }
 
+        [HttpPost]
+        public ActionResult Translate(FormCollection formData)
+        {
+            return RedirectToAction("Translate");
+        }
+
         public ActionResult Translate()
         {
             //ViewBag.Message = "Your about page.";
