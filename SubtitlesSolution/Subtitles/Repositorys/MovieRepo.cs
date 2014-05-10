@@ -8,14 +8,15 @@ namespace Subtitles.Repositorys
 {
 	public class MovieRepo
 	{
-		AppDataContext context;
-		public Movie GetAllMovies()
-		{
-			var a = new Movie();
-			a.ID = 1;
-			a.Name = "KLISTINN";
-			return a;
-		}
+		AppDataContext context = new AppDataContext();
+        public IEnumerable<Movie> GetAllNews()
+        {
+            var values = from s in context.Movies
+                         orderby s.dateTime descending
+                         select s;
+
+            return values;
+        }
 
 		public void AddMovie(Movie m)
 		{
