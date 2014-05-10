@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Subtitles.Models;
+using Subtitles.Repositorys;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,9 +10,12 @@ namespace Subtitles.Controllers
 {
     public class HomeController : Controller
     {
+        MovieRepo repo = new MovieRepo();
         public ActionResult Index()
         {
-            return View();
+            IEnumerable<Movie> values = repo.GetAllNews();
+
+            return View(values);
         }
         public ActionResult Requesting()
         {
