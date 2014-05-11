@@ -21,6 +21,16 @@ namespace Subtitles.Repositorys
 		public void AddMovie(Movie m)
 		{
 			context.Movies.Add(m);
+			context.SaveChanges();
+		}
+		public int GetLargestId()
+		{
+		   var largest = (from s in context.Movies
+						 orderby s.ID descending
+							  select s.ID).FirstOrDefault();
+		   largest = largest + 1;
+		   return largest;
+
 		}
 	}
 }

@@ -25,8 +25,17 @@ namespace Subtitles.Controllers
         }
 
         [HttpPost]
-        public ActionResult Translate(FormCollection formData)
+        public ActionResult Translate(Movie e)
         {
+			Movie c = new Movie();							 
+			c.Name = e.Name;
+			c.ImdbUrl = e.ImdbUrl;
+			System.Diagnostics.Debug.WriteLine(e);
+			c.dateTime = DateTime.Now;
+			e.ID = repo.GetLargestId();
+			c.ID = e.ID;
+			repo.AddMovie(c);
+			//return Json(c, JsonRequestBehavior.AllowGet);
             return RedirectToAction("Translate");
         }
 

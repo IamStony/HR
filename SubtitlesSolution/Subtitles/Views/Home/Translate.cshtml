@@ -5,6 +5,20 @@
 <h3>@ViewBag.Message</h3>
 
 <p>Use this area to provide additional information.</p>-->
+<script src="~/Scripts/Testing.js"></script>
+<div>
+@using (Html.BeginForm())
+            {
+    <div class="form-horizontal">
+        <label class="sr-only" for="Name">Name</label>
+        <textarea class="form-control" rows="3" id="Name" name="Name"></textarea>
+        <label class="sr-only" for="ImdbUrl">ImdbUrl</label>
+        <textarea class="form-control" rows="3" id="ImdbUrl" name="ImdbUrl"></textarea>
+        <button id="yolo" name="Send" type="button" onclick="addcomment()" class="btn btn-primary">Send</button>
+    </div>
+    @Html.ValidationSummary(false)
+}
+    </div>
 <form>
     <input type="radio" id="mov" name="type" value="mov" />
     <label for="mov">Kvikmynd</label>
