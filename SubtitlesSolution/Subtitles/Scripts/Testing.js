@@ -1,4 +1,5 @@
-﻿$('#yolo').click(function () {
+﻿
+/*$('#yolo').click(function () {
     addcomment();
 });
 function addcomment() {
@@ -6,14 +7,40 @@ function addcomment() {
     if (!$("#Name").val() == "") {
         console.log("Adding comment...");
         //Geyma það sem notandinn skrifar inn
-        var e = $("#Name").val();
+        var e = new Object();
+        e.Name = $("#Name").val();
+        e.ImdbUrl = $("#ImdbUrl").val();
         //Senda það sem notandinn skrifaði inn og setja það
         //inn í CommentRepository
         $.post('/Home/Translate', { Movie: e }, function () {
             //Sækja svo öll commentin upp á nýtt
-            getallcomments();
         });
         //"Núllstilla" textaboxið
         $("#CommentText").val("");
     }
-};
+};*/
+
+$("#yolo").click(function () {
+    addcomment()
+});
+
+function addcomment() {
+    if ($("#Name").val != "") {
+        //Consolelog
+        //Geyma input frá notanda
+        var e = new Object();
+        alert("Nýtt object");
+        e.Name = "SonjaKul";
+        alert("Nafn");
+        alert(e.Name);
+        e.ImdbUrl = "SonjaURL";
+        alert(e.ImdbUrl);
+        alert("URL");
+        $.post("/Home/Translate", { Object: e }, function () {
+            alert("Póst");
+        });
+        alert("BUIÐ");
+        $("#Name").val("");
+        $("#ImdbUrl").val("");
+    }
+}
