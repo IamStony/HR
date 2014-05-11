@@ -30,14 +30,20 @@ function addcomment() {
         //Geyma input frá notanda
         var e = new Object();
         alert("Nýtt object");
-        e.Name = "SonjaKul";
+        e.Name = $("#Name").val();
         alert("Nafn");
         alert(e.Name);
-        e.ImdbUrl = "SonjaURL";
+        e.ImdbUrl = $("#ImdbUrl").val();
         alert(e.ImdbUrl);
         alert("URL");
-        $.post("/Home/Translate", { Object: e }, function () {
-            alert("Póst");
+        $.ajax({
+            type: "POST",
+            url: "/Home/Translate/",
+            data: e,
+            dataType: "json",
+            success: function (data) {
+                alert("Tókst");
+            },
         });
         alert("BUIÐ");
         $("#Name").val("");
