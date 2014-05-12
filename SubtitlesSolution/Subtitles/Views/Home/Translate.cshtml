@@ -50,3 +50,12 @@
     <button>Skrá</button>
     <button>Hætta við</button>
 </form>
+<form id="uploader">
+    <input id="fileInput" type="file" multiple>
+    <input type="submit" value="Upload file" />
+</form>
+@using (Html.BeginForm("Index", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <input type="file" name="file" />
+    <input type="submit" value="OK" />
+}

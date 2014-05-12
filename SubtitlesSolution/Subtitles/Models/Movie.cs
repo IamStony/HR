@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Subtitles.Models
 {
-    public class Movie : BaseModel
-    {
-    }
+	public class Movie : BaseModel
+	{
+	}
 }
