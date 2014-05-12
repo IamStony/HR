@@ -50,6 +50,7 @@ namespace Subtitles.Controllers
 		[HttpPost]
 		public ActionResult Index(Transfering media)
 		{
+			Movie m = new Movie();
 			// Verify that the user selected a file
 			if (media.File != null && media.File.ContentLength > 0)
 			{
@@ -57,9 +58,15 @@ namespace Subtitles.Controllers
 				var fileName = Path.GetFileName(media.File.FileName);
 				// store the file inside ~/App_Data/uploads folder
 				var path = Path.Combine(Server.MapPath("~/App_Data"), fileName);
+				BinaryReader b = new BinaryReader(media.File.InputStream);
+				int LengthOfFile = unchecked((int)media.File.InputStream.Length);
+				byte[] BinData = b.ReadBytes(LengthOfFile);
+				string Resault = System.Text.Encoding.UTF8.GetString(BinData);
+				m.SrtFile = Resault;
 				media.File.SaveAs(path);
 			}
-			Movie m = new Movie();
+			
+			
 			m.Name = media.Name;
 			m.ImdbUrl = media.ImdbUrl;
 			m.dateTime = DateTime.Now;
