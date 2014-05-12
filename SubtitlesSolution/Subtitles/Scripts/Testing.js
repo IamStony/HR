@@ -25,7 +25,7 @@ $("#yolo").click(function () {
 });
 
 function addcomment() {
-    if ($("#Name").val != "") {
+    /*if ($("#Name").val != "") {
         //Consolelog
         //Geyma input frá notanda
         var e = new Object();
@@ -47,7 +47,7 @@ function addcomment() {
         });
         alert("BUIÐ");
         $("#Name").val("");
-        $("#ImdbUrl").val("");
+        $("#ImdbUrl").val("");*/
     }
     document.getElementById('uploader').onsubmit = function () {
         var formdata = new FormData(); //FormData object
@@ -58,6 +58,10 @@ function addcomment() {
             formdata.append(fileInput.files[i].name, fileInput.files[i]);
         }
         //Creating an XMLHttpRequest and sending
+        var obj = new Object();
+        obj.File = formdata;
+        obj.Name = $("#Name").val();
+        obj.ImdbUrl = $("#ImdbUrl").val();
         var xhr = new XMLHttpRequest();
         xhr.open('POST', '/Home/Upload');
         xhr.send(formdata);

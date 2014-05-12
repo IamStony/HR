@@ -1,5 +1,6 @@
 ﻿using Subtitles.Models;
 using Subtitles.Repositorys;
+using Subtitles.ReverseViewModel;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -47,19 +48,28 @@ namespace Subtitles.Controllers
 			return View();
 		}
 		[HttpPost]
-		public ActionResult Index(HttpPostedFileBase file)
+		public ActionResult Index(Transfering media)
 		{
 			// Verify that the user selected a file
-			if (file != null && file.ContentLength > 0)
+			if (media.File != null && media.File.ContentLength > 0)
 			{
 				// extract only the fielname
-				var fileName = Path.GetFileName(file.FileName);
+				var fileName = Path.GetFileName(media.File.FileName);
 				// store the file inside ~/App_Data/uploads folder
 				var path = Path.Combine(Server.MapPath("~/App_Data"), fileName);
-				file.SaveAs(path);
+				media.File.SaveAs(path);
 			}
+			Movie m = new Movie();
+			m.Name = media.Name;
+			m.ImdbUrl = media.ImdbUrl;
+			m.dateTime = DateTime.Now;
+			PostToServer(m);
 			// redirect back to the index action to show the form once again
 			return RedirectToAction("Index");
+		}
+		public void PostToServer(Movie e)
+		{
+				 repo.AddMovie(e);
 		}
 		public ActionResult About()
 		{

@@ -175,6 +175,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorys\MovieRepo.cs" />
     <Compile Include="Repositorys\TvShowRepo.cs" />
+    <Compile Include="ReverseViewModel\Transfering.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
