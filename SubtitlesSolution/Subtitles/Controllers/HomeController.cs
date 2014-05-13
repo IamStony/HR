@@ -15,7 +15,7 @@ namespace Subtitles.Controllers
 		MovieRepo repo = new MovieRepo();
 		public ActionResult Index()
 		{
-			IEnumerable<Movie> values = repo.GetAllNews();
+			IEnumerable<Movie> values = repo.GetAllMovies();
 
 			return View(values);
 		}

@@ -9,7 +9,7 @@ namespace Subtitles.Repositorys
 	public class MovieRepo
 	{
 		AppDataContext context = new AppDataContext();
-        public IEnumerable<Movie> GetAllNews()
+        public IEnumerable<Movie> GetAllMovies()
         {
             var values = from s in context.Movies
                          orderby s.dateTime descending
