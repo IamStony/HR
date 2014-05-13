@@ -17,6 +17,14 @@ namespace Subtitles.Repositorys
 
 			return values;
 		}
+		public IEnumerable<Movie> GetTop10()
+		{
+			var values = (from s in context.Movies
+						  orderby s.dateTime descending
+						  where s.SrtFile == null
+						  select s).Take(10);
+			return values;
+		}
 
 		public void AddMovie(Movie m)
 		{

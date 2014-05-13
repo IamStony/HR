@@ -16,7 +16,7 @@ namespace Subtitles.Controllers
 		TvShowRepo Tvrepo = new TvShowRepo();
 		public ActionResult Index()
 		{
-			IEnumerable<Movie> values = Movierepo.GetAllMovies();
+			IEnumerable<Movie> values = Movierepo.GetTop10();
 
 			return View(values);
 		}
