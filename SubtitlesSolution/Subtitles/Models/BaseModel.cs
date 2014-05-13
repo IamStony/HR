@@ -11,6 +11,6 @@ namespace Subtitles.Models
 		public string Name { get; set; }
 		public string ImdbUrl { get; set; }
 		public string SrtFile { get; set; }
-        public DateTime dateTime { get; set; }
+		public DateTime dateTime { get; set; }
 	}
 }

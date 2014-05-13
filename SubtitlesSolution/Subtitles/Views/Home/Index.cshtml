@@ -1,35 +1,35 @@
 ﻿@model IEnumerable<Subtitles.Models.Movie>
 @{
-    ViewBag.Title = "Index";
+	ViewBag.Title = "Index";
 }
 <link href="~/Content/FrontPage.css" rel="stylesheet" />
 <form>
-    <br />
-    <input type="radio" id="all" name="type" value="all" />
-    <label for="all">Allt</label>
-    <input type="radio" id="mov" name="type" value="mov" />
-    <label for="mov">Kvikmynd</label>
-    <input type="radio" id="tv" name="type" value="tv" />
-    <label for="tv">Þáttur</label>
-    <br />
-    <input type="checkbox" name="genre" value="hasar" /> Hasar
-    <input type="checkbox" name="genre" value="gaman" /> Gaman
-    <input type="checkbox" name="genre" value="barna" /> Barnaefni <br />
-    <input type="checkbox" name="genre" value="drama" /> Drama
-    <input type="checkbox" name="genre" value="hryllir" /> Hryllir
-    <input type="checkbox" name="genre" value="romo" /> Rómantík <br />
-    <br />
-    <input type="search" name="search" value="Leita" size="100" />
+	<br />
+	<input type="radio" id="all" name="type" value="all" />
+	<label for="all">Allt</label>
+	<input type="radio" id="mov" name="type" value="mov" />
+	<label for="mov">Kvikmynd</label>
+	<input type="radio" id="tv" name="type" value="tv" />
+	<label for="tv">Þáttur</label>
+	<br />
+	<input type="checkbox" name="genre" value="hasar" /> Hasar
+	<input type="checkbox" name="genre" value="gaman" /> Gaman
+	<input type="checkbox" name="genre" value="barna" /> Barnaefni <br />
+	<input type="checkbox" name="genre" value="drama" /> Drama
+	<input type="checkbox" name="genre" value="hryllir" /> Hryllir
+	<input type="checkbox" name="genre" value="romo" /> Rómantík <br />
+	<br />
+	<input type="search" name="search" value="Leita" size="100" />
 </form>
 
 @foreach (var item in Model)
 {
-    <div class="jumbotron">
-        <p>@item.Name</p>
-        <p>@item.ImdbUrl</p>
-        <p>@item.dateTime</p>
-        <p>@item.SrtFile</p>
+	<div class="jumbotron">
+		<p>@item.Name</p>
+		<p>@item.ImdbUrl</p>
+		<p>@item.dateTime</p>
+		<p>@item.SrtFile</p>
 
-    </div>
+	</div>
 }
 

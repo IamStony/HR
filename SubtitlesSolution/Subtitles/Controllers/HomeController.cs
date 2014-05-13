@@ -35,24 +35,38 @@ namespace Subtitles.Controllers
 		[HttpPost]
 		public ActionResult Index(Transfering media)
 		{
-			if(media.Season == 0)
+			if (media.Season == 0)
 			{
 				Movie m = new Movie();
 				// Verify that the user selected a file
 				if (media.File != null && media.File.ContentLength > 0)
 				{
-					// extract only the fielname
+					/*
 					var fileName = Path.GetFileName(media.File.FileName);
-					// store the file inside ~/App_Data/uploads folder
+					var path = Path.Combine(Server.MapPath("~/App_Data"), fileName);
+					media.File.SaveAs(path);
+					string FileData = "";
+					using (StreamReader sr = new StreamReader(path))
+					{
+						while(sr.Peek() >= 0)
+						{
+							FileData += sr.ReadLine();
+						}
+					}
+					*/
+
+					var fileName = Path.GetFileName(media.File.FileName);
+
 					var path = Path.Combine(Server.MapPath("~/App_Data"), fileName);
 					BinaryReader b = new BinaryReader(media.File.InputStream);
 					int LengthOfFile = unchecked((int)media.File.InputStream.Length);
 					byte[] BinData = b.ReadBytes(LengthOfFile);
 					string Resault = System.Text.Encoding.UTF8.GetString(BinData);
 					m.SrtFile = Resault;
-					//media.File.SaveAs(path);
+					//ef við viljum save-a fileinn á serverinn
+					//media.File.SaveAs(path); 
 				}
-															  
+
 
 				m.Name = media.Name;
 				m.ImdbUrl = media.ImdbUrl;
@@ -63,9 +77,9 @@ namespace Subtitles.Controllers
 			else
 			{
 				TvShow m = new TvShow();
-				if(m.Season < 0)
+				if (m.Season < 0)
 				{
-					
+
 				}
 				m.Season = media.Season;
 				m.Episode = media.Episode;
@@ -84,7 +98,7 @@ namespace Subtitles.Controllers
 					media.File.SaveAs(path);
 				}
 
-					   //
+				//
 				m.Name = media.Name;
 				m.ImdbUrl = media.ImdbUrl;
 				m.dateTime = DateTime.Now;
@@ -92,12 +106,12 @@ namespace Subtitles.Controllers
 				// redirect back to the index action to show the form once again
 
 			}
-			
+
 			return RedirectToAction("Index");
 		}
 		public void PostToServerMovie(Movie e)
 		{
-				 Movierepo.AddMovie(e);
+			Movierepo.AddMovie(e);
 		}
 		public void PostToServerTv(TvShow e)
 		{

@@ -22,6 +22,6 @@ namespace Subtitles.Repositorys
 			context.TvShows.Add(e);
 			context.SaveChanges();
 		}
-		
+
 	}
 }

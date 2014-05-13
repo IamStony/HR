@@ -9,14 +9,14 @@ namespace Subtitles.Repositorys
 	public class MovieRepo
 	{
 		AppDataContext context = new AppDataContext();
-        public IEnumerable<Movie> GetAllMovies()
-        {
-            var values = from s in context.Movies
-                         orderby s.dateTime descending
-                         select s;
+		public IEnumerable<Movie> GetAllMovies()
+		{
+			var values = from s in context.Movies
+						 orderby s.dateTime descending
+						 select s;
 
-            return values;
-        }
+			return values;
+		}
 
 		public void AddMovie(Movie m)
 		{
@@ -25,11 +25,11 @@ namespace Subtitles.Repositorys
 		}
 		public int GetLargestId()
 		{
-		   var largest = (from s in context.Movies
-						 orderby s.ID descending
-							  select s.ID).FirstOrDefault();
-		   largest = largest + 1;
-		   return largest;
+			var largest = (from s in context.Movies
+						   orderby s.ID descending
+						   select s.ID).FirstOrDefault();
+			largest = largest + 1;
+			return largest;
 
 		}
 	}
