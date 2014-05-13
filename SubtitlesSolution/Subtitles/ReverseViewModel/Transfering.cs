@@ -14,5 +14,7 @@ namespace Subtitles.ReverseViewModel
 		public string SrtFile { get; set; }
 		public DateTime dateTime { get; set; }
 		public HttpPostedFileBase File {get; set;}
+		public int Season { get; set; }
+		public int Episode { get; set; }
 	}
 }

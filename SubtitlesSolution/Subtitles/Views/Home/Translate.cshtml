@@ -8,10 +8,10 @@
 <script src="~/Scripts/Testing.js"></script>
 @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
+    <input type="text" id="Name" name="Name"/>
+    <input type="text" id="ImdbUrl" name="ImdbUrl" />
     <input type="file" name="file" />
-    <label class="sr-only" for="Name">Name</label>
-    <textarea class="form-control" rows="3" id="Name" name="Name"></textarea>
-    <label class="sr-only" for="ImdbUrl">ImdbUrl</label>
-    <textarea class="form-control" rows="3" id="ImdbUrl" name="ImdbUrl"></textarea>
+    <input type="number" name="Season" />
+    <input type="number" name="Episode" />
     <input type="submit" value="OK" />
 }

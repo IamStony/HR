@@ -12,10 +12,11 @@ namespace Subtitles.Controllers
 {
 	public class HomeController : Controller
 	{
-		MovieRepo repo = new MovieRepo();
+		MovieRepo Movierepo = new MovieRepo();
+		TvShowRepo Tvrepo = new TvShowRepo();
 		public ActionResult Index()
 		{
-			IEnumerable<Movie> values = repo.GetAllMovies();
+			IEnumerable<Movie> values = Movierepo.GetAllMovies();
 
 			return View(values);
 		}
@@ -25,22 +26,6 @@ namespace Subtitles.Controllers
 
 			return View();
 		}
-
-		[HttpPost]
-		public ActionResult Translate(Movie e)
-		{
-			Movie c = new Movie();
-			c.Name = e.Name;
-			c.ImdbUrl = e.ImdbUrl;
-			System.Diagnostics.Debug.WriteLine(e);
-			c.dateTime = DateTime.Now;
-			e.ID = repo.GetLargestId();
-			c.ID = e.ID;
-			repo.AddMovie(c);
-			//return Json(c, JsonRequestBehavior.AllowGet);
-			return RedirectToAction("Translate");
-		}
-
 		public ActionResult Translate()
 		{
 			//ViewBag.Message = "Your about page.";
@@ -50,33 +35,73 @@ namespace Subtitles.Controllers
 		[HttpPost]
 		public ActionResult Index(Transfering media)
 		{
-			Movie m = new Movie();
-			// Verify that the user selected a file
-			if (media.File != null && media.File.ContentLength > 0)
+			if(media.Season == 0)
 			{
-				// extract only the fielname
-				var fileName = Path.GetFileName(media.File.FileName);
-				// store the file inside ~/App_Data/uploads folder
-				var path = Path.Combine(Server.MapPath("~/App_Data"), fileName);
-				BinaryReader b = new BinaryReader(media.File.InputStream);
-				int LengthOfFile = unchecked((int)media.File.InputStream.Length);
-				byte[] BinData = b.ReadBytes(LengthOfFile);
-				string Resault = System.Text.Encoding.UTF8.GetString(BinData);
-				m.SrtFile = Resault;
-				media.File.SaveAs(path);
+				Movie m = new Movie();
+				// Verify that the user selected a file
+				if (media.File != null && media.File.ContentLength > 0)
+				{
+					// extract only the fielname
+					var fileName = Path.GetFileName(media.File.FileName);
+					// store the file inside ~/App_Data/uploads folder
+					var path = Path.Combine(Server.MapPath("~/App_Data"), fileName);
+					BinaryReader b = new BinaryReader(media.File.InputStream);
+					int LengthOfFile = unchecked((int)media.File.InputStream.Length);
+					byte[] BinData = b.ReadBytes(LengthOfFile);
+					string Resault = System.Text.Encoding.UTF8.GetString(BinData);
+					m.SrtFile = Resault;
+					//media.File.SaveAs(path);
+				}
+															  
+
+				m.Name = media.Name;
+				m.ImdbUrl = media.ImdbUrl;
+				m.dateTime = DateTime.Now;
+				PostToServerMovie(m);
+				// redirect back to the index action to show the form once again
+			}
+			else
+			{
+				TvShow m = new TvShow();
+				if(m.Season < 0)
+				{
+					
+				}
+				m.Season = media.Season;
+				m.Episode = media.Episode;
+				// Verify that the user selected a file
+				if (media.File != null && media.File.ContentLength > 0)
+				{
+					// extract only the fielname
+					var fileName = Path.GetFileName(media.File.FileName);
+					// store the file inside ~/App_Data/uploads folder
+					var path = Path.Combine(Server.MapPath("~/App_Data"), fileName);
+					BinaryReader b = new BinaryReader(media.File.InputStream);
+					int LengthOfFile = unchecked((int)media.File.InputStream.Length);
+					byte[] BinData = b.ReadBytes(LengthOfFile);
+					string Resault = System.Text.Encoding.UTF8.GetString(BinData);
+					m.SrtFile = Resault;
+					media.File.SaveAs(path);
+				}
+
+					   //
+				m.Name = media.Name;
+				m.ImdbUrl = media.ImdbUrl;
+				m.dateTime = DateTime.Now;
+				PostToServerTv(m);
+				// redirect back to the index action to show the form once again
+
 			}
 			
-			
-			m.Name = media.Name;
-			m.ImdbUrl = media.ImdbUrl;
-			m.dateTime = DateTime.Now;
-			PostToServer(m);
-			// redirect back to the index action to show the form once again
 			return RedirectToAction("Index");
 		}
-		public void PostToServer(Movie e)
+		public void PostToServerMovie(Movie e)
 		{
-				 repo.AddMovie(e);
+				 Movierepo.AddMovie(e);
+		}
+		public void PostToServerTv(TvShow e)
+		{
+			Tvrepo.AddTvShow(e);
 		}
 		public ActionResult About()
 		{
