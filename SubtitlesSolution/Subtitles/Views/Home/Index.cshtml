@@ -22,14 +22,18 @@
 	<input type="search" name="search" value="Leita" size="100" />
 </form>
 
+<table>
+	<tr>
+		<th>Heiti</th>
+		<th>Imdb Linkur</th>
+		<th>Sent inn</th>
+	</tr>
 @foreach (var item in Model)
 {
-	<div class="jumbotron">
-		<p>@item.Name</p>
-		<p>@item.ImdbUrl</p>
-		<p>@item.dateTime</p>
-		<p>@item.SrtFile</p>
-
-	</div>
+	<tr>
+	<td>@item.Name</td>
+	<td>@item.ImdbUrl</td>
+	<td>@item.dateTime</td>
+	</tr>
 }
-
+</table>
