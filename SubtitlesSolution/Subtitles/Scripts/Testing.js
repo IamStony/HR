@@ -7,12 +7,12 @@
 		formdata.append(fileInput.files[i].name, fileInput.files[i]);
 	}
 	//Creating an XMLHttpRequest and sending
-	var obj = new Object();
-	obj.File = formdata;
-	obj.Name = $("#Name").val();
-	obj.ImdbUrl = $("#ImdbUrl").val();
+	//var obj = new Object();
+	//obj.File = formdata;
+	//obj.Name = $("#Name").val();
+	//obj.ImdbUrl = $("#ImdbUrl").val();
 	var xhr = new XMLHttpRequest();
-	xhr.open('POST', '/Home/Upload');
+	xhr.open('POST', '/Home/FileUpload');
 	xhr.send(formdata);
 	xhr.onreadystatechange = function () {
 		if (xhr.readyState == 4 && xhr.status == 200) {

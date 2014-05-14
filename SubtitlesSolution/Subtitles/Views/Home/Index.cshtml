@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Subtitles.Models.Movie>
+﻿@model Subtitles.CombinedModel.Everything
 @{
 	ViewBag.Title = "Index";
 }
@@ -11,29 +11,21 @@
 	<label for="mov">Kvikmynd</label>
 	<input type="radio" id="tv" name="type" value="tv" />
 	<label for="tv">Þáttur</label>
-	<br />
-	<input type="checkbox" name="genre" value="hasar" /> Hasar
-	<input type="checkbox" name="genre" value="gaman" /> Gaman
-	<input type="checkbox" name="genre" value="barna" /> Barnaefni <br />
-	<input type="checkbox" name="genre" value="drama" /> Drama
-	<input type="checkbox" name="genre" value="hryllir" /> Hryllir
-	<input type="checkbox" name="genre" value="romo" /> Rómantík <br />
-	<br />
 	<input type="search" name="search" value="Leita" size="100" />
 </form>
+<p>Ignora fyrir ofan</p>
 
-<table>
-	<tr>
-		<th>Heiti</th>
-		<th>Imdb Linkur</th>
-		<th>Sent inn</th>
-	</tr>
-@foreach (var item in Model)
+@using (Html.BeginForm())
 {
-	<tr>
-	<td>@item.Name</td>
-	<td>@item.ImdbUrl</td>
-	<td>@item.dateTime</td>
-	</tr>
+	<p>
+		Title: @Html.TextBox("SearchString") <br />
+		<input type="submit" value="Filter" />
+	</p>
 }
-</table>
+
+ <p>Leitarniðurstöður f neðan</p>
+@{Html.RenderPartial("Movies", Model.movie);}
+<div class="jumbotron">
+	<p>HÉRNA FYRIR NEÐAN ERU TV SHOWS TAKK OG BLESS :) :) :) :)</p>
+</div>
+@{Html.RenderPartial("TvShows", Model.tvShow);}

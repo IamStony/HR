@@ -9,10 +9,10 @@ namespace Subtitles.Repositorys
 	public class TvShowRepo
 	{
 		AppDataContext context = new AppDataContext();
-		public IEnumerable<Movie> GetAllTvShows()
+		public IEnumerable<TvShow> GetAllTvShows()
 		{
-			var values = from s in context.Movies
-						 orderby s.dateTime descending
+			var values = from s in context.TvShows
+						 orderby s.Name ascending
 						 select s;
 
 			return values;

@@ -12,7 +12,7 @@ namespace Subtitles.Repositorys
 		public IEnumerable<Movie> GetAllMovies()
 		{
 			var values = from s in context.Movies
-						 orderby s.dateTime descending
+						 orderby s.Name ascending
 						 select s;
 
 			return values;

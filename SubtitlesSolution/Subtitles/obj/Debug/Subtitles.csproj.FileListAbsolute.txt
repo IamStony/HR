@@ -105,7 +105,6 @@ C:\Users\Kristinn\Documents\GitHub\HR\SubtitlesSolution\Subtitles\bin\Microsoft.
 C:\Users\Kristinn\Documents\GitHub\HR\SubtitlesSolution\Subtitles\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Kristinn\Documents\GitHub\HR\SubtitlesSolution\Subtitles\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Kristinn\Documents\GitHub\HR\SubtitlesSolution\Subtitles\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Kristinn\Documents\GitHub\HR\SubtitlesSolution\Subtitles\obj\Debug\Subtitles.csprojResolveAssemblyReference.cache
 C:\Users\Kristinn\Documents\GitHub\HR\SubtitlesSolution\Subtitles\obj\Debug\Subtitles.dll
 C:\Users\Kristinn\Documents\GitHub\HR\SubtitlesSolution\Subtitles\obj\Debug\Subtitles.pdb
 C:\Users\Sonja\Documents\GitHub\HR\SubtitlesSolution\Subtitles\bin\Subtitles.dll.config
@@ -163,3 +162,4 @@ C:\Users\Sonja\Documents\GitHub\HR\SubtitlesSolution\Subtitles\bin\Microsoft.Owi
 C:\Users\Sonja\Documents\GitHub\HR\SubtitlesSolution\Subtitles\obj\Debug\Subtitles.csprojResolveAssemblyReference.cache
 C:\Users\Sonja\Documents\GitHub\HR\SubtitlesSolution\Subtitles\obj\Debug\Subtitles.dll
 C:\Users\Sonja\Documents\GitHub\HR\SubtitlesSolution\Subtitles\obj\Debug\Subtitles.pdb
+C:\Users\Kristinn\Documents\GitHub\HR\SubtitlesSolution\Subtitles\obj\Debug\Subtitles.csprojResolveAssemblyReference.cache

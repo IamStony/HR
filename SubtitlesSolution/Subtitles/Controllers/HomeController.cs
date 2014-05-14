@@ -1,4 +1,5 @@
-﻿using Subtitles.Models;
+﻿using Subtitles.CombinedModel;
+using Subtitles.Models;
 using Subtitles.Repositorys;
 using Subtitles.ReverseViewModel;
 using System;
@@ -14,11 +15,19 @@ namespace Subtitles.Controllers
 	{
 		MovieRepo Movierepo = new MovieRepo();
 		TvShowRepo Tvrepo = new TvShowRepo();
-		public ActionResult Index()
+		public ActionResult Index(string searchString)
 		{
-			IEnumerable<Movie> values = Movierepo.GetTop10();
-
-			return View(values);
+			//IEnumerable<Movie> values = Movierepo.GetTop10();
+			var everything = new Everything();
+			everything.movie = Movierepo.GetAllMovies();
+			everything.tvShow = Tvrepo.GetAllTvShows();
+			if (!String.IsNullOrEmpty(searchString))
+			{
+				everything.movie = everything.movie.Where(m => m.Name.Contains(searchString));
+				everything.tvShow = everything.tvShow.Where(t => t.Name.Contains(searchString));
+			}
+			return View(everything);
+			//return View();
 		}
 		public ActionResult Requesting()
 		{
@@ -33,9 +42,8 @@ namespace Subtitles.Controllers
 			return View();
 		}
 		[HttpPost]
-		public ActionResult Index(Transfering media)
+		public ActionResult FileUpload(Transfering media)
 		{
-			
 			string resault = "";
 			// Verify that the user selected a file
 			if (media.File != null && media.File.ContentLength > 0)
