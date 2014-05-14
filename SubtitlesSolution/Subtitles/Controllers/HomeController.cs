@@ -33,12 +33,12 @@ namespace Subtitles.Controllers
 		{
 			//ViewBag.Message = "Your application description page.";
 
-			return View();
+			var movieTop10 = Movierepo.GetTop10();
+			return View(movieTop10);
 		}
 		public ActionResult Translate()
 		{
 			//ViewBag.Message = "Your about page.";
-
 			return View();
 		}
 		[HttpPost]
