@@ -24,7 +24,7 @@
 
 
 1.2
-	#1	- TBD...
+	#1	- TBD... (What does this mean ?
 
 - - - -
 
@@ -32,7 +32,7 @@
 - - - -
 2.1
 	#1	- No abbreviated names (informative)
-			e.g. Gif allowed, UG (i.e. UploadGif not allowed)
+			e.g. Gif allowed, UG (i.e. UploadGif) not allowed
 
 	#2	- Pascal Casing naming
 			e.g. All first letter of a given word are upper case, for example: SearchGif
@@ -41,6 +41,8 @@
 			
 	
 	#4	- Setup "Regions" around functions/controllers
+	
+	5#	- Use more files for functions (Don't let homecontroller get to large), reduces conflicts also
 
 
 2.2	
