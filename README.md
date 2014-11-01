@@ -1,4 +1,0 @@
-HR
-==
-
-UniversityStuff - Steinar & Kristinn
